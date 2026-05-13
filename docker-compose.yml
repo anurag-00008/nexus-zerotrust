@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  nexus-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./frontend:/app/frontend
+      - ./k8s:/app/k8s
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+networks:
+  default:
+    name: nexus-network
