@@ -169,6 +169,6 @@ NEXUS automatically injects random anomalies to demonstrate detection:
 
 ---
 
-## 👥 Team ByteForge
+## 👥 Team ZeroTrust
 
 Built with 💙 for ABB Accelerator 2026.
