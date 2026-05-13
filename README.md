@@ -2,7 +2,6 @@
 
 **Team:** **ZeroTrust**
 
-
 **Hackathon:** ABB Accelerator 2026  
 **Theme:** Theme 2 — Beyond Monitoring: AI Agents for Real-Time Pod Resource Discovery and Dependency Mapping
 
